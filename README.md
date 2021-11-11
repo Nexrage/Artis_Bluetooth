@@ -1,5 +1,6 @@
 # Artis Bluetooth Demo
 An IOS example project; designed to showcase interactions between react native and the in-store cash drawers. 
+To demo, this application will need to be compiled on an ACTUAL device because of the bluetooth support.  
 
 
 ## Project Installation
