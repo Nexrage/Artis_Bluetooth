@@ -37,3 +37,8 @@ Description -> Bluetooth is required to connect to your stores printer/registers
 Supported external accessory protocols
 item 0: -> jp.star-m.starpro
 ```
+
+Add the following bridge header
+```
+Objective-C Bridging Header = BLUEAccessories.h
+```
