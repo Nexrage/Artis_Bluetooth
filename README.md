@@ -27,10 +27,12 @@ Add the Following 3 Properties and KeyValue pairings:
 Privacy - Bluetooth Always Usage Description
 Description -> Bluetooth is required to connect to your stores printer/registers drawers
 ```
+
 ```
 Privacy - Bluetooth Peripheral Usage Description
 Description -> Bluetooth is required to connect to your stores printer/registers drawers
 ```
+
 ```
 Supported external accessory protocols
 item 0: -> jp.star-m.starpro
