@@ -1,3 +1,4 @@
 ${PODS_ROOT}/Target Support Files/Pods-Artis_Bluetooth-Artis_BluetoothTests/Pods-Artis_Bluetooth-Artis_BluetoothTests-frameworks.sh
 ${PODS_XCFRAMEWORKS_BUILD_DIR}/Flipper-DoubleConversion/double-conversion.framework/double-conversion
 ${PODS_XCFRAMEWORKS_BUILD_DIR}/OpenSSL-Universal/OpenSSL.framework/OpenSSL
+${PODS_XCFRAMEWORKS_BUILD_DIR}/react-native-star-io10/StarIO10.framework/StarIO10

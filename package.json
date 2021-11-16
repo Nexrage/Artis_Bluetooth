@@ -11,10 +11,14 @@
     "test": "jest"
   },
   "dependencies": {
+    "@react-native-community/checkbox": "^0.5.9",
+    "@react-native-picker/picker": "^2.2.0",
     "native-base": "^3.2.2",
     "react": "17.0.2",
     "react-native": "0.66.2",
+    "react-native-ble-manager": "^8.0.0",
     "react-native-safe-area-context": "^3.3.2",
+    "react-native-star-io10": "^1.0.0",
     "react-native-star-prnt": "^1.1.0",
     "react-native-svg": "^12.1.1",
     "styled-components": "^5.3.3",

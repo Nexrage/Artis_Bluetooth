@@ -42,14 +42,4 @@ class RNCBluetooth: NSObject {
   func returnExampleCallback(_ callback: RCTResponseSenderBlock) {
     callback(["Example Callback"])
   }
-  @objc
-  func disconnectAccessoryList(_ resolve: RCTPromiseResolveBlock, rejecter reject: RCTPromiseRejectBlock) {
-    let returnList: NSMutableArray = []
-    let deviceList = CTRLAccessoryManager.connectedAccessories
-    
-    for device in deviceList {
-      device.disconnectAcces
-    }
-    resolve(returnList)
-  }
 }
