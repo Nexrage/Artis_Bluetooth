@@ -339,10 +339,15 @@ PODS:
     - React-jsi (= 0.66.2)
     - React-logger (= 0.66.2)
     - React-perflogger (= 0.66.2)
-  - RNStarPrnt (1.0.0):
-    - React
   - RNSVG (12.1.1):
     - React
+  - SMCloudServices (1.5.1):
+    - StarIO_Extension
+  - StarIO (2.8.2)
+  - StarIO_Extension (1.15.0):
+    - StarIO
+  - StarIODeviceSetting (1.0.0):
+    - StarIO
   - Yoga (1.14.0)
   - YogaKit (1.18.1):
     - Yoga (~> 1.14)
@@ -401,8 +406,11 @@ DEPENDENCIES:
   - React-RCTVibration (from `../node_modules/react-native/Libraries/Vibration`)
   - React-runtimeexecutor (from `../node_modules/react-native/ReactCommon/runtimeexecutor`)
   - ReactCommon/turbomodule/core (from `../node_modules/react-native/ReactCommon`)
-  - RNStarPrnt (from `../node_modules/react-native-star-prnt`)
   - RNSVG (from `../node_modules/react-native-svg`)
+  - SMCloudServices (= 1.5.1)
+  - StarIO (= 2.8.2)
+  - StarIO_Extension (= 1.15.0)
+  - StarIODeviceSetting (= 1.0.0)
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
 SPEC REPOS:
@@ -420,6 +428,10 @@ SPEC REPOS:
     - fmt
     - libevent
     - OpenSSL-Universal
+    - SMCloudServices
+    - StarIO
+    - StarIO_Extension
+    - StarIODeviceSetting
     - YogaKit
 
 EXTERNAL SOURCES:
@@ -483,8 +495,6 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon/runtimeexecutor"
   ReactCommon:
     :path: "../node_modules/react-native/ReactCommon"
-  RNStarPrnt:
-    :path: "../node_modules/react-native-star-prnt"
   RNSVG:
     :path: "../node_modules/react-native-svg"
   Yoga:
@@ -534,11 +544,14 @@ SPEC CHECKSUMS:
   React-RCTVibration: 3e815c3d2dd2e0e931b68595b5b92d23ba38b3fb
   React-runtimeexecutor: 393e26602c1b248683372051e34db63e359e3b01
   ReactCommon: c0263c1a41509aeb94be3214fa7bc3b71eae5ef6
-  RNStarPrnt: decb5f37e9d77c2785e09ff3614d25a29d1ea5d1
   RNSVG: 551acb6562324b1d52a4e0758f7ca0ec234e278f
+  SMCloudServices: d31c07b85289d68db7d0ada0b91fb5a1c078e694
+  StarIO: e1d416e563e34fd77f94de779913618f6aac8972
+  StarIO_Extension: 0484b9f19869e29f6e875060a543243f14153ba4
+  StarIODeviceSetting: d07f79ebdfe378c62f6039ead040e61442606e31
   Yoga: 9a08effa851c1d8cc1647691895540bc168ea65f
   YogaKit: f782866e155069a2cca2517aafea43200b01fd5a
 
-PODFILE CHECKSUM: 41a5412da2dd24250d8e00f9ac79c7d0a051deeb
+PODFILE CHECKSUM: b0362c4a135e0e08be5f4be46dcd19c91b5cec81
 
-COCOAPODS: 1.11.0
+COCOAPODS: 1.11.2

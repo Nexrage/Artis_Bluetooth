@@ -1,2 +1,3 @@
 ${PODS_ROOT}/Target Support Files/Pods-Artis_Bluetooth/Pods-Artis_Bluetooth-resources.sh
 ${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle
+${PODS_ROOT}/SMCloudServices/SMCloudServices.framework/Versions/A/Resources/SMCloudServicesResources.bundle

@@ -6,6 +6,11 @@ platform :ios, '11.0'
 target 'Artis_Bluetooth' do
   config = use_native_modules!
 
+  pod 'StarIO', '2.8.2'
+  pod 'StarIO_Extension', '1.15.0'
+  pod 'SMCloudServices', '1.5.1'
+  pod 'StarIODeviceSetting', '1.0.0'
+
   use_react_native!(
     :path => config[:reactNativePath],
     # to enable hermes on iOS, change `false` to `true` and then install pods

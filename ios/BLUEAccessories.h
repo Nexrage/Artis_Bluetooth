@@ -4,3 +4,6 @@
 #import <React/RCTBridge.h>
 #import <React/RCTBridgeModule.h>
 #import <React/RCTEventDispatcher.h>
+
+#import <StarIO/SMPort.h>
+#import <StarIO/ExternalAccessoryPort.h>
