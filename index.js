@@ -1,4 +1,4 @@
 import { AppRegistry } from "react-native";
-import { Primary } from "./app-primary/primary";
+import { Index } from "./src/index";
 
-AppRegistry.registerComponent("Artis_Bluetooth", () => Primary);
+AppRegistry.registerComponent("Artis_Bluetooth", () => Index);

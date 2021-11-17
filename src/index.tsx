@@ -4,7 +4,7 @@ import {  SafeAreaView } from "react-native-safe-area-context";
 import { Text, View, NativeModules } from "react-native";
 import { CommandsArray, Printer, StarPRNT } from "react-native-star-prnt";
 
-export const Primary = () => {
+export const index = () => {
   let [activeDevice, setActiveDevice] = React.useState("")
   let [devices, setDevices] = React.useState([])
   React.useEffect(() => {
