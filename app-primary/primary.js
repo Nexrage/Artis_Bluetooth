@@ -18,6 +18,7 @@ export const Primary = () => {
 
   const listConnectedAccessories = async () => {
     let deviceList = await NativeModules.RNCBluetooth.returnAccessoryList()
+    console.log(deviceList)
     setDevices(deviceList)
   }
 
