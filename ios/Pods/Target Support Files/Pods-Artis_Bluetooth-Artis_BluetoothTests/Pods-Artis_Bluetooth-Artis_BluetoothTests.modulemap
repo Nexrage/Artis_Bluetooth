@@ -1,6 +1,0 @@
-module Pods_Artis_Bluetooth_Artis_BluetoothTests {
-  umbrella header "Pods-Artis_Bluetooth-Artis_BluetoothTests-umbrella.h"
-
-  export *
-  module * { export * }
-}
